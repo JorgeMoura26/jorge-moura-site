@@ -21,12 +21,17 @@ gap:20px;
 
 .fotos img{
 width:100%;
-max-width:320px;
 height:220px;
 object-fit:cover;
 border-radius:10px;
-display:block;
-margin:auto;
+cursor:pointer;
+transition:transform .4s ease,
+box-shadow .4s ease;
+}
+.fotos img:hover{
+transfotm:scale(1.08);
+box-shadow:0 10px 25px
+rgba(0,0,0.30);
 }
 
 body{
