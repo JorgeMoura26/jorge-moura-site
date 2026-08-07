@@ -286,10 +286,18 @@ justify-content:center;
 .card a:hover{
     background:#084298;
 }
+.empreendimentos .card{
+    width:100%;
+    max-width:500px;
+    min-height:430px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
 .empreendimentos .card img{
     width:100%;
     height:250px;
     object-fit:cover;
     border-radius:10px;
-    margin-bottom:15px;
 }
